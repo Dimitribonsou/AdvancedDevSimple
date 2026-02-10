@@ -1,0 +1,16 @@
+# Visual Studio folders
+.vs/
+[Bb]in/
+[Obj]/
+*.user
+*.suo
+*.sln.docstates
+
+# SonarQube analysis folders
+.sonarqube/
+.sonar/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Advanced.Sample.Api/AdvancedDevSample.Api.csproj" />
+  <Project Path="Advanced.Sample.Test/AdvancedDevSample.Test.csproj" />
+  <Project Path="AdvancedDev.Sample.Infrastructure/AdvancedDevSample.Infrastructure.csproj" />
+  <Project Path="AdvancedDevSample.Application/AdvancedDevSample.Application.csproj" />
+  <Project Path="AdvancedDevSample.Domain/AdvancedDevSample.Domain.csproj" />
+</Solution>

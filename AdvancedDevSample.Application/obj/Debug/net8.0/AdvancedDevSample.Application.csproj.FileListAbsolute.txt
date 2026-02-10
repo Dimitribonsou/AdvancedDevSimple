@@ -1,0 +1,15 @@
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\bin\Debug\net8.0\AdvancedDevSample.Application.deps.json
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\bin\Debug\net8.0\AdvancedDevSample.Application.dll
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\bin\Debug\net8.0\AdvancedDevSample.Application.pdb
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\bin\Debug\net8.0\AdvancedDevSample.Domain.dll
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\bin\Debug\net8.0\AdvancedDevSample.Domain.pdb
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\obj\Debug\net8.0\AdvancedDevSample.Application.csproj.AssemblyReference.cache
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\obj\Debug\net8.0\AdvancedDevSample.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\obj\Debug\net8.0\AdvancedDevSample.Application.AssemblyInfoInputs.cache
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\obj\Debug\net8.0\AdvancedDevSample.Application.AssemblyInfo.cs
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\obj\Debug\net8.0\AdvancedDevSample.Application.csproj.CoreCompileInputs.cache
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\obj\Debug\net8.0\Advanced.B39B4A70.Up2Date
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\obj\Debug\net8.0\AdvancedDevSample.Application.dll
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\obj\Debug\net8.0\refint\AdvancedDevSample.Application.dll
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\obj\Debug\net8.0\AdvancedDevSample.Application.pdb
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Application\obj\Debug\net8.0\ref\AdvancedDevSample.Application.dll
