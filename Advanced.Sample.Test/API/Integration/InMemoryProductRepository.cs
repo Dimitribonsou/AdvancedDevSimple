@@ -11,7 +11,11 @@ namespace AdvancedDevSample.Test.API.Integration
         {
             _store[product.Id] = product; 
         }
-
+      public   IEnumerable<Product> GetAll() {  return _store.Values; }
+        public void Update(Product product) {
+            _store[product.Id] ??= product;
+        }
+        public void Delete(Guid id) {  _store.Remove(id); }
         public void Seed(Product product) => _store[product.Id] = product;
     }
 }

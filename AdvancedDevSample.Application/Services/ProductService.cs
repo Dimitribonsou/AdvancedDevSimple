@@ -14,15 +14,41 @@ namespace AdvancedDevSample.Application.Services
         public ProductService( IProductRepository repo) {
             _repo = repo;
         }
-        public void ChangeProductPrice(Guid productId,decimal newPrice) { 
-
-            var product= GetProduct(productId);
-            product.ChangePrice(newPrice);
-            _repo.Save(product);
-        }
         private Product GetProduct(Guid productId)
         {
             return _repo.GetProductById(productId) ?? throw new Exception("Produit introuvable");
+        }
+        public IEnumerable<Product> GetAll()
+    => _repo.GetAll();
+
+        public Product GetById(Guid id)
+            => _repo.GetProductById(id)
+               ?? throw new Exception("Produit introuvable");
+
+        public Guid Create(string name, decimal price, bool isActive)
+        {
+            var product = new Product(Guid.NewGuid(), name, price, isActive);
+            _repo.Save(product);
+            return product.Id;
+        }
+
+        public void Update(Guid id, string name, decimal price, bool isActive)
+        {
+            var product = GetById(id);
+            product.Update(name, price, isActive);
+            _repo.Update(product);
+        }
+
+        public void ChangeProductPrice(Guid id, decimal price)
+        {
+            var product = GetById(id);
+            product.ChangePrice(price);
+            _repo.Update(product);
+        }
+
+        public void Delete(Guid id)
+        {
+            _repo.Delete(id);
         }
     }
 }

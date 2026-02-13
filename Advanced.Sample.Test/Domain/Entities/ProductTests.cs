@@ -11,11 +11,6 @@ namespace AdvancedDevSample.Test.Domain.Entities
     public class ProductTests
     {
         [Fact]
-        public void ChangePrice_Should_Update_Price_When_Product_Is()
-        {
-
-        }
-        [Fact]
         public void ChangePrice_Should_Throw_Exception_When_Product_Is_Inactive()
         {
             var product = new Product();
@@ -32,20 +27,46 @@ namespace AdvancedDevSample.Test.Domain.Entities
             var product = new Product();
             product.ChangePrice(100);
 
-            //Act
-            //product.ApplyDiscount(30);
+            product.ApplyDiscount(30);
             //Assert
             Assert.Equal(70,product.Price);
         }
+
+        [Fact]
+        public void ChangePrice_Should_Update_Price_When_Product_Is_Active()
+        {
+            // Arrange
+            var product = new Product();
+
+            // Act
+            product.ChangePrice(50);
+
+            // Assert
+            Assert.Equal(50, product.Price);
+        }
+        [Fact]
+        public void ApplyDiscount_Should_Decrease_Price()
+        {
+            // Arrange
+            var product = new Product();
+            product.ChangePrice(100);
+
+            // Act
+            product.ApplyDiscount(30);
+
+            // Assert
+            Assert.Equal(70, product.Price);
+        }
+
         [Fact]
         public void ApplyDiscount_Should_Throw_When_Resulting_Price_Is_Invalid()
         {
-            //Arrange
+            // Arrange
             var product = new Product();
             product.ChangePrice(100);
 
             // Act & Assert
-            //Assert.Throws<DomainException>(() => product.ApplyDiscount(30));
+            Assert.Throws<DomainException>(() => product.ApplyDiscount(100));
         }
     }
 }

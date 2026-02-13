@@ -1,12 +1,13 @@
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\bin\Debug\net8.0\AdvancedDevSample.Domain.deps.json
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\bin\Debug\net8.0\AdvancedDevSample.Domain.dll
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\bin\Debug\net8.0\AdvancedDevSample.Domain.pdb
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\obj\Debug\net8.0\AdvancedDevSample.Domain.csproj.AssemblyReference.cache
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\obj\Debug\net8.0\AdvancedDevSample.Domain.GeneratedMSBuildEditorConfig.editorconfig
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\obj\Debug\net8.0\AdvancedDevSample.Domain.AssemblyInfoInputs.cache
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\obj\Debug\net8.0\AdvancedDevSample.Domain.AssemblyInfo.cs
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\obj\Debug\net8.0\AdvancedDevSample.Domain.csproj.CoreCompileInputs.cache
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\obj\Debug\net8.0\AdvancedDevSample.Domain.sourcelink.json
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\obj\Debug\net8.0\AdvancedDevSample.Domain.dll
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\obj\Debug\net8.0\refint\AdvancedDevSample.Domain.dll
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\obj\Debug\net8.0\AdvancedDevSample.Domain.pdb
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\obj\Debug\net8.0\ref\AdvancedDevSample.Domain.dll
-E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDevSample.Domain\obj\Debug\net8.0\AdvancedDevSample.Domain.csproj.AssemblyReference.cache

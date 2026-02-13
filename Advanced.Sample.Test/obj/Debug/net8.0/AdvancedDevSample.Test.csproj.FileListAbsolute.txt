@@ -469,3 +469,6 @@ E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\Advanced.Sample.Test\obj\Deb
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\Advanced.Sample.Test\obj\Debug\net8.0\AdvancedDevSample.Test.pdb
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\Advanced.Sample.Test\obj\Debug\net8.0\AdvancedDevSample.Test.genruntimeconfig.cache
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\Advanced.Sample.Test\obj\Debug\net8.0\ref\AdvancedDevSample.Test.dll
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\Advanced.Sample.Test\obj\Debug\net8.0\AdvancedDevSample.Test.sourcelink.json
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\Advanced.Sample.Test\bin\Debug\net8.0\Castle.Core.dll
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\Advanced.Sample.Test\bin\Debug\net8.0\Moq.dll

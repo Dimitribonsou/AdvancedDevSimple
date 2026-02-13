@@ -9,9 +9,10 @@ namespace AdvancedDevSample.Domain.Entities
 {
     public class Product
     {
-        public Guid Id { get;  set; }
+        public Guid Id { get;   set; }
         public string Name { get; set; }
-        public decimal Price { get;  set; }
+        public string Description { get; set; }= string.Empty;
+        public decimal Price { get; private set; }
         public int Quantity { get;  set; }
         public bool IsActive { get;  set; }
         public Product()
@@ -33,11 +34,14 @@ namespace AdvancedDevSample.Domain.Entities
             this.Price = price;
             this.IsActive = isActive;
         }
-        /// <summary>
-        /// Modifier le prix du produit
-        /// </summary>
-        /// <param name="newprice">Nouveau prix du produit</param>
-        /// <exception cref="DomainException">Levée si le prix est inférieur ou égal à zéro ou si le produit</exception>
+        public Product(Guid id, string name, string descritpion,decimal price, bool isActive)
+        {
+            this.Name = name;
+            this.Id = id;
+            this.Price = price;
+            this.IsActive = isActive;
+            this.Description= descritpion;
+        }
 
         public void ChangePrice(decimal newprice) // Comportement
         {
@@ -49,6 +53,21 @@ namespace AdvancedDevSample.Domain.Entities
                 throw new DomainException("Produit inactif");
 
              Price=newprice;
+        }
+        public void Update(string name, decimal price, bool isActive)
+        {
+            Name = name;
+            ChangePrice(price);
+            IsActive = isActive;
+        }
+        public void ApplyDiscount(decimal percentage)
+        {
+            var newPrice = Price - (Price * percentage / 100);
+
+            if (newPrice <= 0)
+                throw new DomainException("Le prix après réduction est invalide");
+
+            Price = newPrice;
         }
     }
 }

@@ -1,4 +1,5 @@
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\bin\Debug\net8.0\AdvancedDevSample.Infrastructure.deps.json
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\bin\Debug\net8.0\AdvancedDevSample.Infrastructure.runtimeconfig.json
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\bin\Debug\net8.0\AdvancedDevSample.Infrastructure.dll
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\bin\Debug\net8.0\AdvancedDevSample.Infrastructure.pdb
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\bin\Debug\net8.0\AdvancedDevSample.Domain.dll
@@ -8,8 +9,10 @@ E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastru
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\obj\Debug\net8.0\AdvancedDevSample.Infrastructure.AssemblyInfoInputs.cache
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\obj\Debug\net8.0\AdvancedDevSample.Infrastructure.AssemblyInfo.cs
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\obj\Debug\net8.0\AdvancedDevSample.Infrastructure.csproj.CoreCompileInputs.cache
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\obj\Debug\net8.0\AdvancedDevSample.Infrastructure.sourcelink.json
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\obj\Debug\net8.0\Advanced.98842F3F.Up2Date
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\obj\Debug\net8.0\AdvancedDevSample.Infrastructure.dll
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\obj\Debug\net8.0\refint\AdvancedDevSample.Infrastructure.dll
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\obj\Debug\net8.0\AdvancedDevSample.Infrastructure.pdb
+E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\obj\Debug\net8.0\AdvancedDevSample.Infrastructure.genruntimeconfig.cache
 E:\PROJETS\API_BACK_END\C#\AdvancedDevSample.Domain\AdvancedDev.Sample.Infrastructure\obj\Debug\net8.0\ref\AdvancedDevSample.Infrastructure.dll

@@ -16,9 +16,10 @@ namespace AdvancedDevSample.Infrastructure.Repositories
             {
                 Id = id,
                 Name ="Iphone 4",
-                Price =300,
                 IsActive = false
             };
+            
+            product.ChangePrice(300);
             var domainProduct = new Product(id: product.Id,name:product.Name, price: product.Price,isActive: product.IsActive);
 
             return domainProduct;
@@ -27,5 +28,8 @@ namespace AdvancedDevSample.Infrastructure.Repositories
         {
             throw new NotImplementedException();
         }
+        public void Delete(Guid id) { throw new NotImplementedException(); }
+        public IEnumerable<Product> GetAll() { throw new NotImplementedException(); }
+        public void Update(Product Product) { throw new NotImplementedException(); }
     }
 }
