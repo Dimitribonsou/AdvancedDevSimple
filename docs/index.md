@@ -20,6 +20,8 @@ Les objectifs principaux de ce projet sont :
 - **[Vue d'ensemble Technique](technical/project_documentation.md)** : Plongée dans l'architecture et la structure du code.
 - **[Diagrammes de Classes](technical/class_diagram.md)** : Modèles visuels des entités du système.
 - **[Diagrammes de Flux](technical/flow_diagram.md)** : Diagrammes de séquence des processus métier clés.
+- **[Qualité du Code](quality/sonarqube.md)** : Rapports d'analyse SonarQube et métriques.
+- **[Guide de Lancement](guide/running_locally.md)** : Instructions pour compiler et visualiser la documentation localement.
 
 ## Pour Commencer
-Consultez le fichier [LEZMOI (README)](../README.md) à la racine pour les instructions sur la compilation et l'exécution locale de l'application.
+Consultez le fichier [LISEZ MOI (README)](../README.md) à la racine pour les instructions sur la compilation et l'exécution locale de l'application.
