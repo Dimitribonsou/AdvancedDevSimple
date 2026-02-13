@@ -40,3 +40,5 @@ nav:
     - Vue d'ensemble: technical/project_documentation.md
     - Diagrammes de Classes: technical/class_diagram.md
     - Diagrammes de Flux: technical/flow_diagram.md
+  - Qualité du Code: quality/sonarqube.md
+  - Guide: guide/running_locally.md
