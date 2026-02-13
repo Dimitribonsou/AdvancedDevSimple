@@ -1,0 +1,42 @@
+site_name: Documentation Catalogue Produit
+site_description: Documentation technique pour le service de gestion du catalogue produit.
+site_author: Équipe AdvancedDevSample
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode sombre
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Accueil: index.md
+  - Technique:
+    - Vue d'ensemble: technical/project_documentation.md
+    - Diagrammes de Classes: technical/class_diagram.md
+    - Diagrammes de Flux: technical/flow_diagram.md
